@@ -9,7 +9,7 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[hmargin=1.25cm, vmargin=0.75cm]{geometry}
+\usepackage[hmargin=1.25cm, vmargin=1.25cm]{geometry}
 \usepackage[hidelinks]{hyperref}
 
 % Publications
@@ -33,7 +33,7 @@
 \usepackage[UKenglish]{isodate}
 \setlength{\TPHorizModule}{1mm}
 \setlength{\TPVertModule}{\paperheight}
-\newcommand{\lastupdated}{\begin{textblock}{60}(155,0.97)
+\newcommand{\lastupdated}{\begin{textblock}{60}(155,0.95)
 \color{date}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{8pt}{10pt}\selectfont 
 Last Updated on \today
 \end{textblock}}
