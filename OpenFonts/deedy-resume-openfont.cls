@@ -9,7 +9,7 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[hmargin=1.25cm, vmargin=1.25cm]{geometry}
+\usepackage[hmargin=1.25cm, vmargin=1.75cm]{geometry}
 \usepackage[hidelinks]{hyperref}
 
 % Publications
@@ -33,7 +33,7 @@
 \usepackage[UKenglish]{isodate}
 \setlength{\TPHorizModule}{1mm}
 \setlength{\TPVertModule}{\paperheight}
-\newcommand{\lastupdated}{\begin{textblock}{60}(155,0.95)
+\newcommand{\lastupdated}{\begin{textblock}{60}(155,0.925)
 \color{date}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{8pt}{10pt}\selectfont 
 Last Updated on \today
 \end{textblock}}
@@ -48,9 +48,11 @@ Last Updated on \today
 } \\[5pt]
 \centering{
 \color{headings}
-\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #4}
+\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #4
+} \\[10pt]
+
 \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}}
-\vspace{-15pt}
+\vspace{-10pt}
 }
 
 % Section seperators 
@@ -80,6 +82,6 @@ Last Updated on \today
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{
-\vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}
+\vspace{-\topsep}\begin{itemize}\itemsep2pt \parskip1pt \parsep0pt}
 {\end{itemize}\vspace{-\topsep}}
 
