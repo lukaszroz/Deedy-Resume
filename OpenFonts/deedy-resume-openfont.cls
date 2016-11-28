@@ -51,7 +51,7 @@ Last Updated on \today
 \fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #4
 } \\[10pt]
 
-\noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}}
+\noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.0pt}}
 \vspace{-10pt}
 }
 
